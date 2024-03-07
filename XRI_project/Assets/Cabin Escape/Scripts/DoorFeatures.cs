@@ -91,7 +91,9 @@ public class DoorFeatures : CoreFeatures
             open = false;
             var featureRigidBody = GetComponent<Rigidbody>();
             if (featureRigidBody != null && MakeKinematicOnOpen) featureRigidBody.isKinematic = true;
+            { }
         }
 
+        yield return null;
     }
 }
