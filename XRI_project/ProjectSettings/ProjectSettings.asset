@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: XRI_project
+  companyName: GridLab
+  productName: Cabin Room
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -137,7 +137,9 @@ PlayerSettings:
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
   bundleVersion: 0.1
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: -6424493848259773370, guid: 7ac2d7971c1fece499ff12be6975d71f, type: 2}
+  - {fileID: -5035455415303600213, guid: 507165269f40c8b4c9ddfd65d3045f83, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -865,8 +867,8 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: XRI_project
-  metroPackageVersion: 
+  metroPackageName: XRIproject
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -874,7 +876,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: XRI_project
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: XRI_project
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0

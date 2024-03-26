@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Cabin Escape.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: c3cc3538812acf942aba384cb34b90af, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7ac2d7971c1fece499ff12be6975d71f, type: 2}

@@ -4,12 +4,6 @@ using System.Runtime.CompilerServices;
 using UnityEditor.XR.Management;
 using UnityEngine;
 
-
-public enum FeatureUsage
-{
-    Once,//Use once
-    Toggle// If we want to use it more than once
-}
 public class CoreFeatures : MonoBehaviour
 {
     /**
